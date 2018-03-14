@@ -37,6 +37,7 @@ __author__ = 'lhannon'
 # statements will show up in the command line when running Mycroft.
 LOGGER = getLogger(__name__)
 
+
 # The logic of each skill is contained within its own class, which inherits
 # base methods from the MycroftSkill class with the syntax you can see below:
 # "class ____Skill(MycroftSkill)"
@@ -49,7 +50,7 @@ class DecideSkill(MycroftSkill):
     # This method loads the files needed for the skill's functioning, and
     # creates and registers each intent that the skill uses
     def initialize(self):
-        self.load_data_files(dirname(__file__))  
+        self.load_data_files(dirname(__file__))
 
     @intent_handler(IntentBuilder("DecideIntent").require(
         "DecideKeyword").require("Choice1").require("Choice2").build())
@@ -73,6 +74,7 @@ class DecideSkill(MycroftSkill):
     # does nothing.
     def stop(self):
         pass
+
 
 # The "create_skill()" method is used to create an instance of the skill.
 # Note that it's outside the class itself.
