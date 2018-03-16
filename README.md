@@ -1,19 +1,15 @@
-To submit your skill, replace this file with text from 
-https://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html
-
-
-## YOUR SKILL NAME
-One line description of the skill
+## Make a decision
+Randomly choose between two specified options
 
 ## Description 
-A more verbose description, including any extra instructions or
-information that didn't fit in the one line.
+This skill makes a random choice between two specified options.  You can ask who is going to win the game, what should you wear, what you should eat, or simply "decide" between two options.
+
 
 ## Examples 
-* "Hello world"
-* "Greetings planet earth"
-* "Count up"
-* "Count down"
+* "Who is going to win tonight's game, Villanova or Duke?"
+* "What should I eat for lunch, burger or sushi?"
+* "What should I wear, t-shirt or polo?"
+* "Decide heads or tails"
 
 ## Credits 
-Your name
+Laurie Hannon, laurie.hannon@sftsrc.com
